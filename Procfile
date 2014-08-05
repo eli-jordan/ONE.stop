@@ -1,1 +1,1 @@
-web: target/start -Dhttp.port=$PORT -Dmongodb.uri=$MONGOHQ_URL
+web: target/universal/stage/bin/todo -Dhttp.port=$PORT -Dmongodb.uri=$MONGOHQ_URL
