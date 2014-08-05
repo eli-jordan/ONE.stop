@@ -18,7 +18,7 @@
         "dojo/domReady!",
                 "todo/TaskManagerPresenter"
 
-        ], function(TaskManagerPresenter) {
+        ], function(domReady, TaskManagerPresenter) {
             var manager = new TaskManagerPresenter();
             manager.placeAt(document.body)
 		})
