@@ -12,3 +12,5 @@ define [
 
   Router.startup()
   Router.go("!/test/views/123456789")
+
+  #foo bar
