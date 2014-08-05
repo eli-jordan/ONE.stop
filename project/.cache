@@ -1,0 +1,84 @@
+format version: 5
+output mode:
+1 items
+0 -> multiple
+output directories:
+1 items
+/home/elijordan/Dropbox/PlayTODO/todo/project -> /home/elijordan/Dropbox/PlayTODO/todo/project/bin
+compile options:
+6 items
+0 -> -javabootclasspath
+1 -> /usr/lib/j2re1.6-ibm/jre/lib/amd64/default/jclSC160/vm.jar:/usr/lib/j2re1.6-ibm/jre/lib/annotation.jar:/usr/lib/j2re1.6-ibm/jre/lib/beans.jar:/usr/lib/j2re1.6-ibm/jre/lib/java.util.jar:/usr/lib/j2re1.6-ibm/jre/lib/jndi.jar:/usr/lib/j2re1.6-ibm/jre/lib/logging.jar:/usr/lib/j2re1.6-ibm/jre/lib/security.jar:/usr/lib/j2re1.6-ibm/jre/lib/sql.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmorb.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmorbapi.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmcfw.jar:/usr/lib/j2re1.6-ibm/jre/lib/rt.jar:/usr/lib/j2re1.6-ibm/jre/lib/charsets.jar:/usr/lib/j2re1.6-ibm/jre/lib/resources.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmpkcs.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmcertpathfw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmjgssfw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmjssefw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmsaslfw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmjcefw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmjgssprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmjsseprovider2.jar:/usr/lib/j2re1.6-ibm/jre/lib/ibmcertpathprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/management-agent.jar:/usr/lib/j2re1.6-ibm/jre/lib/xml.jar:/usr/lib/j2re1.6-ibm/jre/lib/jlm.jar:/usr/lib/j2re1.6-ibm/jre/lib/javascript.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmxmlcrypto.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmjcefips.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/dnsns.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/xmlencfw.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/jdmpview.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/JavaDiagnosticsCollector.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmjceprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/IBMSecureRandom.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/gskikm.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmkeycert.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/localedata.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/dtfjview.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/CmpCrmf.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmsaslprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/healthcenter.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmcmsprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmxmlencprovider.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/dtfj.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/jaccess.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/ibmpkcs11impl.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/dtfj-interface.jar:/usr/lib/j2re1.6-ibm/jre/lib/ext/IBMKeyManagementServer.jar
+2 -> -javaextdirs
+3 ->  
+4 -> -bootclasspath
+5 -> /home/elijordan/development/eclipse/eclipse_4.3_scala_plugin/plugins/org.scala-lang.scala-library_2.11.2.v20140721-095018-73fb460c1c.jar
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+0 items
+binary dependencies:
+4 items
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> /home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.2.jar
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> /home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-js-engine/jars/sbt-js-engine-1.0.1.jar
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> /home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-twirl/jars/sbt-twirl-1.0.2.jar
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> /home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.4.0.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+0 items
+used names:
+0 items
+product stamps:
+0 items
+source stamps:
+1 items
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> hash(25ca2ae76212058a48cb3024c796b9e3a7fdf225)
+binary stamps:
+4 items
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.2.jar -> lastModified(1405906608000)
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-js-engine/jars/sbt-js-engine-1.0.1.jar -> lastModified(1403659547000)
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-twirl/jars/sbt-twirl-1.0.2.jar -> lastModified(1402827194000)
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.4.0.jar -> lastModified(1382114573000)
+class names:
+4 items
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.play/sbt-plugin/jars/sbt-plugin-2.3.2.jar -> play.PlayImport$
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-js-engine/jars/sbt-js-engine-1.0.1.jar -> com.typesafe.sbt.jse.JsEngineImport$
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-twirl/jars/sbt-twirl-1.0.2.jar -> play.twirl.sbt.Import$
+/home/elijordan/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbteclipse/sbteclipse-plugin/jars/sbteclipse-plugin-2.4.0.jar -> com.typesafe.sbteclipse.plugin.EclipsePlugin$
+internal apis:
+1 items
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABR5UOCNh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAMS9ob21lL2VsaWpvcmRhbi9Ecm9wYm94L1BsYXlUT0RPL3RvZG8vcHJvamVjdC9iaW50AC0vaG9tZS9lbGlqb3JkYW4vRHJvcGJveC9QbGF5VE9ETy90b2RvL3Byb2plY3R1cgACW0Ks8xf4BghU4AIAAHhwAAAAFCXKKudiEgWKSMswJMeWueOn/fIl
+external apis:
+0 items
+source infos:
+1 items
+/home/elijordan/Dropbox/PlayTODO/todo/project/Build.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABR5UOCNh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMS9ob21lL2VsaWpvcmRhbi9Ecm9wYm94L1BsYXlUT0RPL3RvZG8vcHJvamVjdC9iaW50AC0vaG9tZS9lbGlqb3JkYW4vRHJvcGJveC9QbGF5VE9ETy90b2RvL3Byb2plY3Q=

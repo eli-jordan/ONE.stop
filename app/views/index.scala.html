@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Load Bootstrap -->
+	<link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap.min.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap-theme.min.css")">
+    
+    <!-- Load jQuery because bootstraps js depends on it being loaded -->
+    <script src="@routes.Assets.versioned("lib/jquery/jquery.js")"></script>
+            
+	<!-- Load Dojo -->
+	<script src="@routes.Assets.versioned("javascripts/dojoConfig.js")"></script>
+	<script src="@routes.Assets.versioned("javascripts/dojo_root/dojo/dojo.js")"></script>
+	
+	<script type="application/javascript">
+		require([
+                "todo/TaskManagerPresenter",
+                "todo/Routes",
+                "dojo/domReady!"
+        ], function(TaskManagerPresenter) {
+            var manager = new TaskManagerPresenter();
+            manager.placeAt(document.body)
+		})
+	</script>
+</head>
+<body class="col-lg-4 col-lg-offset-4">
+</body>
+</html>
