@@ -43,7 +43,7 @@ define [
         @parent.emit("delete-task", @taskData)
 
 
-  class TaskList extends Evented
+  class TaskListView extends Evented
 
     ##
     # The element the list is attached to
@@ -97,5 +97,8 @@ define [
     ##
     _onServerError: (error) -> console.log("Error:", error)
 
+
+  # return the module
+  return TaskListView
 
 
