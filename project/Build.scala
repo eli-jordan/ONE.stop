@@ -43,7 +43,7 @@ object Build extends Build {
     CoffeeScriptKeys.sourceMap := true,
 
     // use node to compile coffeescript
-    JsEngineKeys.engineType := JsEngineKeys.EngineType.Node,
+    //JsEngineKeys.engineType := JsEngineKeys.EngineType.Node,
 
     // download the source
     EclipseKeys.withSource := true
