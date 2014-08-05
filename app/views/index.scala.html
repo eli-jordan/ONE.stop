@@ -15,8 +15,9 @@
 	
 	<script type="application/javascript">
 		require([
-                "todo/TaskManagerPresenter",
-                "dojo/domReady!"
+        "dojo/domReady!",
+                "todo/TaskManagerPresenter"
+
         ], function(TaskManagerPresenter) {
             var manager = new TaskManagerPresenter();
             manager.placeAt(document.body)
