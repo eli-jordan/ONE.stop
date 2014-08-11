@@ -1,0 +1,24 @@
+<tr>
+    <td class="col-sm-4">
+        ${data.name} (${data.id})
+    </td>
+    <td class="col-sm-3">
+        ${data.status}
+    </td>
+    <td class="col-sm-3">
+        ${data.prereq}
+    </td>
+    <td class="col-sm-2" align="center">
+        <div class="row">
+            <span class="col-sm-4">
+                <i title="Remove"
+                   class="glyphicon glyphicon-remove"
+                   style="color: red; padding-left: 5px"
+                   data-dojo-attach-event="onclick:_onDelete"></i>
+            </span>
+            <span class="col-sm-4">
+                <i title="Edit" class="glyphicon glyphicon-edit"></i>
+            </span>
+        </div>
+    </td>
+</tr>

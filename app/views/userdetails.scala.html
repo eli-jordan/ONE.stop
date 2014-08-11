@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+            <!-- Load Bootstrap -->
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap.min.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap-theme.min.css")">
+
+        <!-- load dbootstrap -->
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("javascripts/dbootstrap/theme/dbootstrap/dbootstrap.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("javascripts/dbootstrap/theme/dbootstrap/dijit.css")">
+
+            <!-- Load jQuery because bootstraps js depends on it being loaded -->
+        <script src="@routes.Assets.versioned("lib/jquery/jquery.js")"></script>
+
+            <!-- Load Dojo -->
+        <script src="@routes.Assets.versioned("javascripts/dojoConfig.js")"></script>
+        <script src="@routes.Assets.versioned("javascripts/dojo_root/dojo/dojo.js")"></script>
+
+        <script type="application/javascript">
+                require([
+                    "todo/PersonalDetails",
+                    "dojo/domReady!"
+                ], function(PersonalDetails) {
+                    var details = new PersonalDetails();
+                    details.placeAt(document.getElementById("main-content"));
+                 });
+        </script>
+
+
+    </head>
+    <body class="dbootstrap">
+        <div class="col-sm-8 col-sm-offset-2" id="main-content">
+
+        </div>
+    </body>
+</html>

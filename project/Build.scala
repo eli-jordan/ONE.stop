@@ -40,10 +40,10 @@ object Build extends Build {
     TwirlKeys.templateImports += "org.bson.types.ObjectId",
 
     // create source maps so the coffee script can be debugged easily
-    CoffeeScriptKeys.sourceMap := false,
+    CoffeeScriptKeys.sourceMap := true,
 
     // use node to compile coffeescript
-    //JsEngineKeys.engineType := JsEngineKeys.EngineType.Node,
+    JsEngineKeys.engineType := JsEngineKeys.EngineType.Node,
 
     // download the source
     EclipseKeys.withSource := true

@@ -1,0 +1,67 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Personal Details</h3>
+            </div>
+            <div class="col-sm-3 pull-right">
+
+                <img style="width: 150px; border-radius: 8px; margin-top: 8px; opacity: 0.8; box-shadow: 2px 2px 1px #888888;"
+                      src="/assets/images/logo.jpg" /><br>
+                <small style="color: grey; padding-left: 10px">Onboarding New Employees</small>
+            </div>
+        </div>
+
+    </div>
+    <div class="panel-body">
+        <div class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="first-name" class="col-sm-3 control-label">First Name</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="first-name" placeholder="First name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="last-name" class="col-sm-3 control-label">Last Name</label>
+
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="last-name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="dob" class="col-sm-3 control-label">DOB</label>
+
+                <div class="col-sm-9">
+                    <input type="date" class="form-control" id="dob" placeholder="dd/mm/yyyy">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="country" class="col-sm-3 control-label">Country</label>
+
+                <div class="col-sm-9">
+                    <div id="country"
+                          data-dojo-type="dijit/form/FilteringSelect"
+                          data-dojo-attach-point="_countrySelect">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="site" class="col-sm-3 control-label">Office Location</label>
+
+                <div class="col-sm-9">
+                    <div id="site"
+                          data-dojo-type="dijit/form/FilteringSelect"
+                          data-dojo-attach-point="_siteSelect">
+                    </div>
+                </div>
+            </div>
+
+            <a href="/professional-details"
+               class="btn btn-primary pull-right">
+                Next
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
+        </div>
+    </div>
+</div>

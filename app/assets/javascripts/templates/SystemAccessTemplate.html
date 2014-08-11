@@ -1,0 +1,40 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>System Access</h3>
+            </div>
+            <div class="col-sm-3 pull-right">
+
+                <img style="width: 150px; border-radius: 8px; margin-top: 8px; opacity: 0.8; box-shadow: 2px 2px 1px #888888;"
+                     src="/assets/images/logo.jpg" /><br>
+                <small style="color: grey; padding-left: 10px">Onboarding New Employees</small>
+            </div>
+        </div>
+        <p>The required system access for the selected job title are listed below. These can be modified as desired.</p>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-offset-2">
+                <div class="pull-right"
+                     data-dojo-type="dijit/form/FilteringSelect"
+                     data-dojo-attach-point="_addNewSystemWidget">
+                </div>
+                <br>
+            </div>
+            <br>
+        </div>
+        <table class="table table-striped table-hover">
+            <tr>
+                <th>System Name</th>
+                <th>Request Status</th>
+                <th>Prerequsite</th>
+                <th>Remove / Modify</th>
+            </tr>
+            <tbody data-dojo-attach-point="_systemsListNode"></tbody>
+        </table>
+        <a href="" class="btn btn-primary pull-right">
+            Finish
+        </a>
+    </div>
+</div>

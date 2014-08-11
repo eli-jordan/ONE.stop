@@ -1,0 +1,90 @@
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Professional Details</h3>
+            </div>
+            <div class="col-sm-3 pull-right">
+
+                <img style="width: 150px; border-radius: 8px; margin-top: 8px; opacity: 0.8; box-shadow: 2px 2px 1px #888888;"
+                     src="/assets/images/logo.jpg" /><br>
+                <small style="color: grey;padding-left: 10px">Onboarding New Employees</small>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <form class="form-horizontal" role="form">
+
+            <!-- The search manager field -->
+            <div class="form-group">
+                <label for="search-manager" class="col-sm-3 control-label">Manager Name</label>
+                <div class="col-sm-7">
+                    <div class="input-group">
+                        <select style="width: 650px"
+                                id="search-manager"
+                                name="search-manager"
+                                data-dojo-type="dijit/form/FilteringSelect"
+                                data-dojo-attach-point="_searchManager">
+                        </select>
+                        <span class="input-group-addon"
+                               data-dojo-attach-event="onclick:_searchClicked">
+                           <i class="glyphicon glyphicon-search"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- The use default checkbox -->
+                <div class="col-sm-2">
+                    <div class="checkbox"
+                          data-dojo-attach-event="onclick:_toggleUseDefaults">
+                        <label>
+                            <input type="checkbox"
+                                    data-dojo-attach-point="_defaultsCheckBox" />
+                            Use default details
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <fieldset style="padding-left: 5px">
+                <div class="form-group">
+                    <label for="cost-center" class="col-sm-3 control-label">Cost Center</label>
+                    <div class="col-sm-7">
+                        <input class="form-control"
+                                type="number"
+                                id="cost-center"
+                                placeholder="XXX-XXX-XXX"
+                                data-dojo-attach-point="_costCenterInput">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="job-title" class="col-sm-3 control-label">Job Title</label>
+                    <div class="col-sm-9">
+                        <div id="job-title"
+                             style="width: 658px"
+                             data-dojo-type="dijit/form/FilteringSelect"
+                             placeholder="Job title..."
+                             data-dojo-attach-point="_jobTitleInput">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- The details fields, filled based on the manager -->
+            <div class="form-group">
+                <div style="display: none"
+                     class="alert alert-info col-sm-6 col-sm-offset-3"
+                     role="alert"
+                     data-dojo-attach-point="_messageBox">
+                    The above fields have been populated based on your selection. Please review the details before proceeding.
+                </div>
+            </div>
+            <a href="/system-access"
+               class="btn btn-primary pull-right">
+                Next
+                <span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
+        </form>
+    </div>
+</div>

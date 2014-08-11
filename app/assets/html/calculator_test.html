@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Load Bootstrap -->
+    <link rel="stylesheet" media="screen" href="/versioned/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="/versioned/lib/bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- load dbootstrap -->
+    <link rel="stylesheet" media="screen" href="/versioned/javascripts/dbootstrap/theme/dbootstrap/dbootstrap.css">
+    <link rel="stylesheet" media="screen" href="/versioned/javascripts/dbootstrap/theme/dbootstrap/dijit.css">
+
+    <!-- Load jQuery because bootstraps js depends on it being loaded -->
+    <script src="/versioned/lib/jquery/jquery.min.js"></script>
+
+    <!-- Load Dojo -->
+    <script src="/versioned/javascripts/dojoConfig.js"></script>
+    <script src="/versioned/javascripts/dojo_root/dojo/dojo.js"></script>
+
+    <script type="application/javascript">
+        require(["todo/PrereqCalculator"], function(PrereqCalculator){
+            var calculator = new PrereqCalculator();
+            var arrays = calculator.requestOrder("CCP");
+            console.log(arrays)
+        });
+    </script>
+
+
+</head>
+<body class="dbootstrap col-sm-8 col-sm-offset-2">
+</body>
+</html>
